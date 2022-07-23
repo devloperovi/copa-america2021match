@@ -1,0 +1,265 @@
+.afc-start{
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 0px;
+    margin-left: 4%;
+    margin-top: 12px;
+    width: 93%;
+    background-color: #2f1d58;
+
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+
+.afc-title{
+    margin-left: 41px;
+}
+
+#h-pera{
+    margin-bottom: 63px;
+}
+
+#h-title{
+    font-size: 60px;
+    color: yellow;
+    font-style: italic;
+}
+
+.afc-title button{
+
+    font-size: 30px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px;
+}
+
+
+.afc-title button:hover {background-color: #1bbc21}
+
+
+
+
+.blog{
+    padding: 72px;
+    height: 277px;
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 0px;
+    box-sizing: border-box;
+    background: darkslategray;
+    width: 269px;
+    border-radius: 12px;
+  
+}
+
+.blog-zone {
+    background: red;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    padding: 26%;
+    margin-top: -42px;
+    width: 67px;
+    font-weight: 900;
+    color: white;
+    margin-left: -18px;
+}
+.blog-rank {
+    background: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 26%;
+    margin-top: -3px;
+    width: 67px;
+    font-weight: 900;
+    color: black;
+    margin-left: -18px;
+}
+
+.blog-groups {
+    background: whitesmoke;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    padding: 26%;
+    margin-top: -1px;
+    width: 67px;
+    font-weight: 900;
+    color: black;
+    margin-left: -18px;
+}
+
+.blog-team{
+    
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 46px;
+        grid-row-gap: 29px;
+        
+}
+
+/* .afc-title button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+} */
+
+.all-match{
+    display: flex;
+    margin-top: 55px;
+}
+
+.parent{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 32px;
+    grid-row-gap: 35px;
+}
+
+.afc-club{
+    width: 93%;
+    height: 534px;
+    /* background: beige; */
+    margin-left: 4%;
+}
+
+.afc-blog-img img{
+    width: 240px;
+}
+.afc-blog-img img {
+    padding: 19px 22px;
+    width: 343px;
+    height: 155px;
+    margin-top: -5%;
+    background-size: cover
+}
+
+.afc-blog{
+    border-radius: 15px;
+    background: blanchedalmond;
+}
+
+#afc-club-title{
+    align-items: center;
+    /* margin-left: 11%; */
+    padding: 3%;
+    /* margin-top: -6%; */
+    font-size: 20px;
+
+    margin-left: 41px;
+ 
+    margin-top: -1px;
+}
+
+
+#afc-club-pera{
+    margin-left: 22%;
+    margin-top: -5%;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.afc-title{
+
+    font-weight: bold;
+    font-size: 36px;
+    color: mistyrose;
+    font-family: serif;
+    margin-left: 64px;
+    margin-top: 49px;
+} */
+
+/* #h-title{
+    font-weight: bold;
+    font-size: 36px;
+    color: mistyrose;
+    margin-top: 56px;
+    font-family: serif
+
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+
+  width: 1600px;
+  height: 444px;
+  background: #161616;
+
+}
+
+.footer-main{
+    text-align: center;
+    margin-top: 111px;
+    margin-bottom: 94px;
+    padding: -25px;
+    font-style: normal;
+    color: #FFFFFF;
+    font-weight: 900;
+}
+
+.nav-item{
+
+    display: flex;
+    column-gap: 83px;
+
+
+}
+
+.nav{
+    margin-left: 320px;
+    margin-top: 167px;
+}
+
+.nav ul li{
+    list-style-type:none;
+}
+
+.nav ul li a{
+    
+    text-decoration: none;
+    color: #fff;
+}

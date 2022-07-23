@@ -1,0 +1,339 @@
+
+
+
+.container{
+
+
+
+    background-color: black;
+    color: wheat;
+    width: 1041px;
+    padding: 96px;
+    border-radius: 10px;
+    margin-left: 75px;
+    margin-top: 38px;
+}
+
+
+
+
+.header{
+
+
+    width: 531px;
+    height: 424px; 
+  
+}
+
+.content-title{
+    font-style: normal;
+font-weight: 600;
+font-size: 72px;
+}
+
+.content-pera{
+
+font-style: normal;
+font-weight: 400;
+height: 200px;
+font-size: 16px;
+margin-right: 132px;
+
+}
+
+.content-button{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px 30px;
+    gap: 10px;
+    position: absolute;
+    width: 187px;
+    height: 56px;
+    color: white;
+    background: #DD0000;
+    border-radius: 5px;
+    margin-top: -136px;
+}
+.content-button i{
+    
+    position: absolute;
+    width: 23px;
+    height: 18px;
+    left: 58.5%;
+    top: 35.83%
+
+}
+
+.header img{
+    position: absolute;
+    
+    width: 458px;
+    height: 562px;
+    left: 581px;
+    top: 122px;
+
+}
+
+
+
+
+/* FootBall Matchss */
+
+
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) 2fr;
+    grid-template-rows: repeat(9, 1fr);
+    grid-column-gap: 2px;
+    grid-row-gap: 15px;
+
+
+    margin-left: 370px;
+    margin-top: 61px;
+
+    height: 1100px;
+
+
+    }
+
+
+    .copa-title{
+        border-top: 1px;
+
+        background-color: green;
+        border-radius: 5px;
+        border-bottom: px;
+      
+        border: 1px solid rgb(22, 22, 22);
+        height: 32px;
+        width: 77px;
+        margin-left: 20px;
+        margin-top: 10px;
+        margin-bottom: -3px;
+        padding: 3px;
+        text-align: center;
+
+
+    }
+
+    #h{
+
+
+        margin-left: 20px;
+        width: 272px;
+        height: 54px;
+        left: 832px;
+        top: 1068px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 27px;
+        color: #161616;
+        
+
+
+
+    }
+
+    .copa-info{
+
+        margin-left: 18px;
+        align-items: center;
+        display: flex;
+        column-gap: 32px;
+}
+
+    
+
+
+
+.copa-banner img{
+    height: 170px;
+}
+
+
+
+
+/* content tow */
+
+
+.match{ 
+
+/* 
+    position: absolute;
+    width: 270px;
+    height: 240px;
+    margin-left: 68px;
+    margin-top: 34px
+    background-color: #161616;
+    border-radius: 10px;  */
+
+
+    position: absolute;
+    width: 284px;
+    height: 278px;
+    left: 82px;
+    top: 774px;
+    background: #161616;
+    border-radius: 12px
+} 
+
+
+
+
+
+ .match-content{
+
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    margin-left: 31px;
+    margin-right: 31px;
+    padding: 10px;
+
+
+
+ } 
+
+
+ #uc-match{ 
+    
+    padding-left: 14px;
+    padding: 10px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 19px;
+    margin-top: 18px;
+    font-size: 21px; 
+
+
+    margin-bottom: 10px;
+    margin-top: 16px;
+    padding: 12px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    text-align: center;
+
+ } 
+
+ #match-group{
+
+    padding: 10px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    text-align: center; */
+
+
+    margin-bottom: 10px;
+    margin-top: 16px;
+    padding: 12px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    text-align: center;
+
+
+ }
+
+ #match-btn{
+
+
+    color: white;
+    background-color: #DD0000;
+    padding: 9px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    margin-top: 18px;
+    font-size: 27px;
+
+ }
+ #match-btn a{
+    
+    text-decoration: none;
+ }
+
+
+
+
+
+
+ /* Next blogsssssssssssss
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* Footerss */
+
+
+ 
+.foot{
+
+    
+    width: 1399px;
+
+    height: 444px;
+    margin-left: -8px;
+    /* margin-right: -9px; */
+    top: 0px;
+    background: #161616;
+}
+
+.footer-name .h-title{
+
+    background-color: white;
+    width: 136px;
+    height: 69px;
+    margin-left: 500px;
+    margin-top: 0px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 53px;
+    line-height: 51px;
+    text-align: center;
+    color: #b6d3f9;
+
+    background: border-box;
+    padding-bottom: -25px;
+    margin-bottom: -55px;
+    padding-top: 157px;
+    /* background: border-box; */
+    box-sizing: border-box;
+}
+
+
+hr{
+    width: 1320px;
+    height: 0px;
+    left: 140px;
+    top: 2330px;
+
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.nav-bar ul{
+    text-align: center;
+    display: flex;
+    margin: 210px;
+    margin-left: 300px;
+    column-gap: 131px;
+    text-decoration: none;
+}
+
+.nav-bar ul li a{
+    text-decoration: none;
+}
